@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>函数</title>
+    <script src="js/js_03_函数.js"></script>
+</head>
+<body>
+    <button onclick="fun1()">方法定义</button>
+    <button onclick="fun2()">方法传参</button>
+
+    <!-- this: 当前对象,所在的HTML, 元素对象  -->
+    <button onclick="fun3(this)">方法传参this</button>
+
+    <p>
+        <span onclick="fun3(this)">span</span>
+    </p>
+    <button onclick="alert(fun4(1,2,3))">方法有返回值</button>
+</body>
+</html>

@@ -1,0 +1,27 @@
+/*
+    DIV+CSS
+*/
+
+
+#top,#bottom{
+    width: 100%;/* 直接父容器(body)的百分比*/
+    height: 80px;
+    background: aquamarine;
+
+}
+#top,#main{
+    border-bottom: 10px solid white;
+}
+
+#main{
+    width: 100%;/* 直接父容器(body)的百分比*/
+    height: 500px;
+    background: red;
+}
+.phone{
+    width: 50%;
+    height: 200px;
+    background: blue;
+    border: 1px solid white;
+}
+

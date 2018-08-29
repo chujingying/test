@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>relative</title>
+    /*
+        相对定位: (1)相对元素 原先的位置 进行偏移
+                    (2)偏移后,元素原先的文档流 还保留
+    */
+    <style>
+        #outer{
+            width: 600px;
+            height: 800px;
+            background: red;
+        }
+        #d1{
+            width: 200px;
+            height: 300px;
+            background: greenyellow;
+            position: relative;
+            left: 50px;
+        }
+        #d2{
+            width: 200px;
+            height: 300px;
+            background: darkgreen;
+        }
+    </style>
+</head>
+<body>
+    <div id="outer">
+        <div id="d1"></div>
+        <div>
+            <div id="d2"></div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,314 @@
+
+                      *{
+                          margin: 0;
+                          padding: 0;
+                      }
+a{
+    text-decoration: none;
+}
+#top,#nav,.userDefineArea,#footer,.content{
+    width: 80%;
+    margin: 0 auto;
+}
+/*************************** start top *******************************************/
+
+#top{
+    height: 100px;
+    background: url("../images/bjt_regular2.jpg");
+}
+#top-left{
+
+    width: 300px;
+    height: 50px;
+    position: relative;
+    top: 50px;
+    float: left;
+    line-height: 50px;/* 设置div中的文本垂直居中*/
+}
+#top-left > a{
+    color: white;
+    margin-left:20px;
+}
+/*伪类*/
+#top-left >a:hover{
+    color: darkgray;
+}
+#top-right{
+
+    width: 300px;
+    height: 50px;
+    position: relative;
+    top: 50px;
+    float: right;
+    line-height: 50px;
+}
+#top-right > a{
+    font-size: 12px;
+    color: white;
+    margin-left: 25px;
+}
+#top-right >a:hover{
+    color: darkgray;
+}
+/*************************** start nav************************************/
+#nav{
+    height: 50px;
+    background: black;
+}
+#nav ul{
+    display: inline-block;
+    float: left;
+}
+#nav li{
+    display: inline;
+    list-style: none;
+    border: none;
+}
+#nav li a{
+    display: inline-block;
+    width: 70px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+#nav li a:hover{
+    background: white;
+    color: darkgray;
+}
+#nav .slice{/*分割线*/
+    display: inline-block;
+    width: 1px;
+    height: 80%;
+    background: darkgray;
+    position: relative;
+    top: 5px;
+    margin-left: 10px;
+    float: left;
+}
+/******************************中间用户自定义展牌图片***********************************/
+.userDefineArea{
+
+    height: 800px;
+}
+/********************************  商品展示区*****************************************/
+.content{
+
+    height: 800px;
+    /*border: 1px solid red;*/
+
+}
+.style-guess-you-like{
+    width: 72%;
+    height: 60px;
+    font-size: 30px;
+    line-height: 60px;
+    text-align: center;
+    margin: 0 auto;
+}
+.swiper-wapper{
+    width: 100%;
+    height: 340px;
+    margin: 0 auto;
+    position: relative;
+    left: 60px;
+}
+.swiper-wapper .item{
+    width: 220px;
+    height: 340px;
+    float: left;
+    margin-left: 15px;
+}
+.swiper-wapper .item img{
+    width:220px ;
+    height: 220px;
+}
+
+
+/************************************** 底部 *************************************/
+#footer{
+    /*border: 1px solid red;*/
+    height: 400px;
+}
+/**/
+.footer-top-containter{
+
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+    /*background: lemonchiffon;*/
+}
+#footer .footer-top{
+    width: 100%;
+    background: black;
+    height: 80px;
+    color: white;
+}
+#footer .footer-top li{
+    list-style: none;
+    float: left;
+    margin-left: 30px;
+    line-height: 80px;
+}
+#footer .footer-top li a{
+    color: white;
+}
+#footer .footer-top li p{
+    font-size: 14px;
+    font-weight:bold ;
+    line-height: 16px;
+    position: relative;
+    top: 32px;
+
+}
+#footer .footer-top li p.remarks{
+    font-size: 12px;
+    color: #888888;
+    padding: 0 0 0 30px;
+    position: relative;
+    right: 15px;
+}
+#footer .footer-top li.contented{
+    font-size: 16px;
+    line-height: 80px;
+    /*margin-right: 30px;*/
+    padding: 0;
+}
+#footer .footer-top .contented-us-time{
+    font-size: 14px;
+    font-weight:bold ;
+    line-height: 16px;
+    position: relative;
+    top: 32px;
+}
+/*订单追踪*/
+#footer .footer-top .order-tracking{
+    font-size: 16px;
+    line-height: 80px;
+    padding: 0;
+}
+
+
+
+
+#footer .footer-cont{
+    width: 100%;
+    background: yellow;
+    height: 240px;
+}
+#footer .footer-bottem{
+    width: 100%;
+    background: black;
+    height: 80px;
+    color: white;
+}
+.footer-top-containter .icon{
+    display: inline-block;
+    background-image:url("../images/ad-icon.png") ;
+}
+
+.footer-top-containter .contact-us-service{ /*联系我们的icon*/
+    width: 17px;
+    height: 17px;
+    background-position: -400px -83px;
+
+}
+                      .footer-top-containter .contact-us-tel{ /*联系我们的icon*/
+                          width: 16px;
+                          height: 16px;
+                          background-position: -74px -86px;
+                      }
+                      .footer-top-containter .contact-us-email{ /*联系我们的icon*/
+                          width: 16px;
+                          height: 16px;
+                          background-position: -96px -84px;
+                      }
+                      #nav li a{
+                          display: inline-block;
+                          width: 70px;
+                          height: 50px;
+                          line-height: 50px;
+                          text-align: center;
+                          text-decoration: none;
+                          color: white;
+                      }
+
+
+
+
+#footer .footer-cont .footer-cont-left ul{
+
+    display: inline-block;
+    width: 150px;
+    
+    float: left;
+    margin-left: 20px;
+    list-style: none;
+}
+#footer .footer-cont .footer-cont-left ul a:hover{
+    color: white;
+}
+
+
+
+
+#footer .footer-bottem .footer-bottem-left ul{
+    display: inline-block;
+    width: 30%;
+    float: left;
+   /* border: 1px solid yellow;*/
+}
+                      #footer .footer-bottem .footer-bottem-left ul li{
+                          display: inline;
+                          list-style: none;
+                          border: none;
+                      }
+                      #footer .footer-bottem .footer-bottem-left ul li a{
+                            /*border: 1px solid salmon;*/
+                          display: inline-block;
+                          font-size: 13px;
+                          width: 80px;
+                          height: 15px;
+                          line-height: 80px;
+                          text-align: center;
+                          text-decoration: none;
+                          color: white;
+                          margin-left: 15px;
+                      }
+                      #footer .footer-bottem .footer-bottem-left #footer-bottem-left-2li{
+                          /*border: 1px solid seagreen;*/
+                          font-size:10px ;
+                          color: darkgray;
+                          margin-left: 20px;
+                      }
+
+   #footer .footer-bottem .footer-bottem-right{
+        display: inline-block;
+       width: 65%;
+       float: right;
+    }
+                      #footer .footer-bottem .footer-bottem-right ul li{
+                          display: inline;
+                          list-style: none;
+                          border: none;
+                      }
+                      #footer .footer-bottem .footer-bottem-right ul li a{
+                          display: inline-block;
+                          font-size: 13px;
+                          height: 17px;
+                          line-height: 80px;
+                          text-align: center;
+                          text-decoration: none;
+                          color: darkgray;
+                          margin-left: 8px;
+                      }
+                      #footer .footer-bottem .footer-bottem-right ul li a:hover{
+                          color: white;
+                      }
+
+
+
+
+
+

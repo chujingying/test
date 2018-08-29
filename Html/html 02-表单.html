@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--12.表单 form : 向服务器发送数据
+        input : type = "test" 单行文本框--
+                type = "password" 密码
+                type = "radio" 单选按钮
+                type="checkbox" 复选框
+                type="file" 文件框
+                type="submit" 将表单发送到服务器中
+                typr="reset" 重置
+                <textarea> 多行文本框
+                type="button" 将功能依赖于js
+                type="hidden" 控件不显示 -->
+<h3>录入账户信息</h3>
+<form>
+    用户名:<input type="test" placeholder="请输入用户名" readonly="readonly"><br>
+    密码:  <input type="password" placeholder="请输入密码"><br>
+    再次输入密码:  <input type="password" placeholder="再次输入密码"><br>
+    性别:<br>
+    <input type="radio" name="a" value="0" checked="checked"> 男(male)<br>
+         <input type="radio"  name="a" value="1"> 女(famle)<br>
+    证件类型:<br>
+    <input type="radio"name="b" value="0" checked="true">身份证(Id Card)<br>
+     <input type="radio" name="b"value="1">护照(Passport)<br>
+     <input type="radio"name="b" value="2">驾驶证(Passport)<br>
+     <input type="radio"name="b" value="3">军官证(Passport)<br>
+    <input type="radio"name="b" value="4">其他(other)<br>
+    项目经验:<br>
+    <input type="checkbox" value="互联网" name="industry"> 互联网<br>
+    <input type="checkbox" value="金融" name="industry"> 金融<br>
+    <input type="checkbox" value="建筑" name="industry"> 建筑<br>
+    <input type="checkbox" value="化工" name="industry"> 化工<br>
+    证件照(文本,图片,视频):<br>
+    <input type="file"><br>
+    企业类型:
+    <select size="2">
+        <option>国企</option>
+        <option>外企</option>
+        <option>民企</option>
+        <option>国家机关</option>
+        <option>事业单位</option>
+    </select>
+    <br>
+    <textarea rows="3"></textarea>
+    <br>
+    隐藏域:<br>
+    工作描述(评论,回复):<br>
+    <input type="hidden" value=""><br>
+
+
+    搜索框:<br>
+    <input type="search">
+
+
+    <h3>HTML5对表单的支持</h3>
+    邮箱:<input type="email"><br>
+    手机号码:<input type="number"><br>
+    入职日期:<input type="date"><br>
+    上班地址:<input type="url"><br>
+    颜色:<input type="color"><br>
+
+    <br>
+    <input type="submit" value="马上注册">
+
+    <input type="reset" value="重置"><br>
+    <input type="button" value="普通按钮"><br>
+
+
+
+</form>
+
+</body>
+</html>

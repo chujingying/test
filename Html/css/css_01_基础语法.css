@@ -1,0 +1,68 @@
+/*
+    对网页中某一个元素进行样式操作
+    (1) 定位元素
+    (2)样式定义
+
+
+    选择器selector{
+        样式属性名1: 值;
+        样式属性名2: 值;
+        样式属性名3: 值;
+
+    }
+    选择器的分类:
+        (1)标签选择器: 所有的标签
+        (2)id选择器:该元素的样式是唯一的
+            #id名{
+               }
+        (3)类(class)选择器:改样式被多个元素公用
+            .class{
+            }
+        (0)属性选择器:
+            [属性名] {
+            }
+         (4)派生选择器:
+            标签名 标签名 标签名 {
+            }
+          (5)组合选择器:适用于不同标签的选择
+          标签名1,标签名2,标签名3 {
+          }
+
+ */
+/*0.属性选择器*/
+
+/* 1.标签选择器*/
+button{
+    width: 100px;
+    height: 60px;
+    background: red;
+}
+
+/*
+2.id选择器
+ */
+#logo{
+    background: aqua;
+}
+/*
+3.类class 选择器
+ */
+.navitem-group{
+    margin: 0;
+    padding: 0;
+
+}
+.section{
+    font-size:16px;
+    background: bisque;
+}
+/*
+4.派生选择器
+ */
+ul li a {
+    background: aquamarine;
+}
+/* 5.组合选择器*/
+h1,h2,h3,h4,h5 {
+    color: blue;
+}

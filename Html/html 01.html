@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>初次练习</title>
+    <style type="text/css">
+        h1 {color: chartreuse}
+        table { color: aqua}
+        body {color: aqua}
+    </style>
+</head>
+<body background="images/suolong.jpg" style=" background-repeat:no-repeat ;
+background-size:100% 100%;
+background-attachment: fixed;">
+    <!--1.标题标签 -->
+        <h1>你好啊</h1>
+    <!--2.段落标签 -->
+        <p></p>
+    <!--3.字体相关的标签 -->
+       <font color="aqua"> <b>服务大家/加粗</b></font><br>
+        <i>服务大家/斜体</i><br>
+        <em>服务大家/斜体</em><br>
+        <strong>服务大家/斜体</strong><br>
+    <!--4.水平线 -->
+        <hr/>
+    <!--超链接
+        相对路径:在当前html所在的目录中寻找
+        ../跳出一层父目录-->
+        <a href="https://www.jd.com" target="_blank">京东</a><br>
+        <a href="html%2002.htmlml" target="_blank">02</a>
+    <!--5.图片 超链接-->
+        <img src="images/01.jpg" width="200" height="200"><br>
+       <!-- <a href="" target="_blank">
+            <img src="images/01.jpg">
+        </a>-->
+    <!--6.提示语标签-->
+        <label>用户名</label><br>
+        <label>密码</label><br>
+    <!--7.微小的文本内容的修饰 span-->
+        <span>机票</span><br>
+    <!--9.有序列表-- order list :ol-->
+        <ol>
+            <li>苹果</li>
+            <li>香蕉</li>
+            <li>葡萄</li>
+            <li>小伙子</li>
+        </ol>
+    <!--10.重点:无序列表-- unorder list: ul-->
+        <ul >
+            <li>苹果</li>
+            <li>香蕉</li>
+            <li>葡萄</li>
+            <li>小伙子</li>
+        </ul>
+    <!--11.表格用 table :数据显示-->
+        <table border="1"  >
+            <caption>思必驰员工信息</caption>
+            <tr>
+                <th>员工编号</th>
+                <th>姓名</th>
+                <th>职位</th>
+            </tr>
+            <tr>
+                <td>001</td>
+                <td>搞事情</td>
+                <td>BOSS</td>
+            </tr>
+        </table>
+    <!--12.表格的单元格合并 rowspan= ""  colspan=""-->
+    <table border="1" >
+        <caption>思必驰员工信息</caption>
+        <tr >
+            <th colspan="2">员工编号</th>
+            <!--<th>姓名</th>-->
+            <th rowspan="2">职位</th>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>搞事情</td>
+            <!--<td>BOSS</td>-->
+        </tr>
+    </table>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#top{
+    width: 100%;
+    background: black;
+    height: 100px;
+}
+#top #top-left{
+    border: 1px solid red;
+    width: 60%;
+    float: left;
+}
+#top #top-left ul{
+    border: 1px solid lawngreen;
+    display: inline-block;
+    width:150px;
+    height: 20px;
+    float: left;
+}
+#top #top-left ul li{
+    display: inline;
+    float: left;
+}
+#top #top-right-up{
+     border: 1px solid yellow;
+     width: 35%;
+     height: 35%;
+    float: right;
+ }
+#top #top-right-low{
+    border: 1px solid blue;
+    width: 35%;
+    height: 45%;
+    float: right;
+}
